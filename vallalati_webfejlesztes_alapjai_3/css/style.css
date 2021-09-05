@@ -7,6 +7,14 @@ h1 {
 input[class$="red"] {
    border: solid 1px red;
 }
-p:hover span {
+p span:hover {
     color: green;
+}
+
+#mydivID {
+    color:blue;
+}
+
+#grandparent>#parent>#child1 {
+    color: red;
 }
