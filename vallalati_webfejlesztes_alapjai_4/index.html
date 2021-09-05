@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,54 @@
 
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
+    <a href="../ujratervezes20.html">Back</a>
 
+    <form action="/action_page.php">
+        <p>Please select your favorite Web language:</p>
+          <input type="radio" id="html" name="fav_language" value="HTML">
+          <label for="html">HTML</label><br>
+          <input type="radio" id="css" name="fav_language" value="CSS">
+          <label for="css">CSS</label><br>
+          <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+          <label for="javascript">JavaScript</label>
 
+        <br>
 
+        <p>Please select your age:</p>
+        <input type="radio" id="age1" name="age" value="30">
+        <label for="age1">0 - 30</label><br>
+        <input type="radio" id="age2" name="age" value="60">
+        <label for="age2">31 - 60</label><br>
+        <input type="radio" id="age3" name="age" value="100">
+        <label for="age3">61 - 100</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <p>Choose your monster's features:</p>
+
+    <div>
+        <input type="checkbox" id="scales" name="scales" checked>
+        <label for="scales">Scales</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="horns" name="horns">
+        <label for="horns">Horns</label>
+    </div>
+    <br>
+    <form>
+        <label>First Name</label>
+        <input type="text" id="myname" name="firstname">
+    </form>
+
+    <form>
+        <label>Frequency:</label>
+        <input type="radio" name="freq" value="weekly"> weekly
+        <input type="radio" name="freq" value="monthly"> monthly
+    </form>
 </body>
+
 </html>
