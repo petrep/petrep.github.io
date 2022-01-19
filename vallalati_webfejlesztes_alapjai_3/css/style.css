@@ -18,3 +18,7 @@ p span:hover {
 #grandparent>#parent>#child1 {
     color: red;
 }
+
+.mylogin input[type="password"] {
+    border: solid 1px red;
+}
